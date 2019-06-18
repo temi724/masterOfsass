@@ -119,7 +119,9 @@
         font-size: 1.4rem;
         text-transform: uppercase;
     }
-    @include respond(tab-port) {
+    // @include respond(tab-port) {
+    @media (max-width:56.25em),
+    only screen and (hover:none) {
         height: auto;
         border-radius: 6px;
         background-color: $color-white;
